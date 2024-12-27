@@ -9245,6 +9245,10 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-position: center center; }
 
+  .test-none {
+    display: none;
+  }
+
 .testimony-section {
   position: relative; }
   .testimony-section .owl-carousel {
