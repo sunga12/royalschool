@@ -8487,6 +8487,8 @@ h1, h2, h3, h4, h5,
     height: 600px;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
+      touch-action: pan-y; /* Allows vertical scrolling */
+      overflow-y: auto !important; /* Enables vertical scrolling */
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top center;
